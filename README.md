@@ -37,25 +37,25 @@
 <details open>
   <summary><b>🧠 LocalLLMios & AIPA Mobile Architecture</b></summary>
   <br/>
-  <code>TypeScript</code> ve <code>Swift/iOS</code> kullanılarak geliştirilmiş, mobil cihazlar üzerinde lokal Yapay Zeka (LLM) modellerini çalıştırabilen devasa otonom mobil sistem altyapısı. Bulut sunuculara ihtiyaç duymadan, doğrudan Apple Neural Engine ve cihaz donanımını sömürerek milisaniyeler içinde akıl yürütebilen devrimsel yapay zeka asistanları ağı.
+  <code>TypeScript</code> ve <code>Swift/iOS</code> kullanılarak geliştirilmiş, mobil cihazlar üzerinde lokal Yapay Zeka (LLM) modellerini çalıştırabilen devasa otonom mobil sistem altyapısı. <b>CoreML</b> ve <b>Transformers.js</b> entegrasyonu sayesinde bulut sunuculara ihtiyaç duymadan, Apple Neural Engine üzerinden milisaniyeler içinde akıl yürütebilen devrimsel yapay zeka ağı. State yönetimi <b>Redux/Zustand</b> ile asenkron mimaride işlenmektedir.
   <br/><br/>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/iOS_Mobile-000000?style=for-the-badge&logo=apple&logoColor=white" /> <img src="https://img.shields.io/badge/Local_AI_Engine-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/CoreML-000000?style=for-the-badge&logo=apple&logoColor=white" /> <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" /> <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 </details>
 
 <details open>
   <summary><b>🏦 Enterprise Banking Core & API Simulation (gorkemBank)</b></summary>
   <br/>
-  <code>Java</code> ve <code>Oracle SQL</code> mimarisi üzerine inşa edilmiş, ultra-yüksek erişilebilirlik (high availability) prensiplerine sadık kalınarak tasarlanmış kurumsal bankacılık çekirdeği (Core Banking). Milyonlarca eşzamanlı finansal işlemi (transaction) saniyeler içinde hatasız yönetebilecek şekilde kurgulanmış; katı ACID kuralları, kriptografik veri güvenliği ve inanılmaz karmaşık (PL/SQL) finansal prosedürler içerir.
+  <code>Java</code> ve <code>Oracle SQL</code> mimarisi üzerine inşa edilmiş, ultra-yüksek erişilebilirlik prensiplerine sadık kalınarak tasarlanmış kurumsal bankacılık çekirdeği. Veritabanı işlemleri <b>Hibernate (ORM)</b> ile optimize edilmiş, yetkilendirmeler <b>Spring Security</b> katmanıyla şifrelenmiştir. Milyonlarca eşzamanlı finansal işlemi <b>JDBC</b> üzerinden saniyeler içinde yönetebilen, katı ACID kurallarına sahip <b>PL/SQL</b> yordamları içerir.
   <br/><br/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" /> <img src="https://img.shields.io/badge/Oracle_SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white" /> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" /> <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" /> <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" /> <img src="https://img.shields.io/badge/Oracle_SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
 </details>
 
 <details open>
   <summary><b>🤖 SQL AI Intelligence System (sqlAI)</b></summary>
   <br/>
-  <code>Python</code> kullanılarak tasarlanmış, geleneksel veritabanı sorgularını yapay zeka ile entegre eden otonom veri analiz motoru. Karmaşık veritabanı yığınlarını saniyeler içinde okuyup analiz eden, insan müdahalesi olmadan akıllı optimizasyonlar ve derinlemesine içgörüler sunan Neural Network destekli veritabanı komuta merkezi.
+  <code>Python</code> kullanılarak tasarlanmış, geleneksel veritabanı sorgularını yapay zeka ile entegre eden otonom veri analiz motoru. Veri kümeleri <b>Pandas</b> ve <b>NumPy</b> kullanılarak manipüle edilirken, analiz işlemleri <b>PyTorch</b> ve <b>Scikit-learn</b> tabanlı neural network katmanlarından geçirilir. İnsan müdahalesi olmadan <b>SQLAlchemy</b> ile karmaşık veritabanı yığınlarını okuyup akıllı optimizasyonlar sunan komuta merkezi.
   <br/><br/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/AI_Data_Engine-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=python&logoColor=white" />
 </details>
 
 <br/>
