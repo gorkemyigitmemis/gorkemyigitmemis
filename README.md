@@ -107,11 +107,6 @@
   </picture>
 
   <br/>
-
-  ### 🏙️ Isometric Cyber-City (3D Contributions)
-  <img src="https://raw.githubusercontent.com/gorkemyigitmemis/gorkemyigitmemis/main/profile-3d-contrib/profile-night-view.svg" alt="3D Contribution Graph" />
-
-  <br/>
   <br/>
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,100:FF00FF&height=100&section=footer" />
