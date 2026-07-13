@@ -12,6 +12,15 @@
       <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FFFF&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Software+Engineer;Enterprise+Java+Developer;Optimizing+every+byte;SYSTEM_READY..." alt="Typing SVG" />
     </a>
   </p>
+
+  <p align="center">
+    <a href="https://www.linkedin.com/in/gorkemyigitmemis/">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="mailto:gorkemyigitmemiss@gmail.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+  </p>
 </div>
 
 <br/>
