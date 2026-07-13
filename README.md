@@ -9,7 +9,7 @@
   <!-- Siberpunk Daktilo Efekti -->
   <p align="center">
     <a href="https://github.com/gorkemyigitmemis">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FFFF&center=true&vCenter=true&random=false&width=600&lines=AI+%26+Mobile+Architect;Enterprise+Java+Developer;Optimizing+every+byte;SYSTEM_READY..." alt="Typing SVG" />
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FFFF&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Software+Engineer;Enterprise+Java+Developer;Optimizing+every+byte;SYSTEM_READY..." alt="Typing SVG" />
     </a>
   </p>
 </div>
