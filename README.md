@@ -3,16 +3,13 @@
   <img src="./profile_ascii.gif" alt="Cyber_Identity" width="350" />
   
   <br/><br/>
-
-  <!-- Siberpunk Header Animasyonu (Hemen altına) -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00FF,100:00FFFF&height=200&section=header&text=Welcome%20to%20the%20Matrix&fontSize=60&fontColor=FFFFFF&animation=twinkling&desc=SYSTEM_ONLINE&descAlignY=70&descAlign=60" />
   
   <h1 align="center">Görkem Yiğit Memiş</h1>
   
   <!-- Siberpunk Daktilo Efekti -->
   <p align="center">
     <a href="https://github.com/gorkemyigitmemis">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FFFF&center=true&vCenter=true&random=false&width=600&lines=Low-Level+System+Architect;Full+Stack+Software+Engineer;Optimizing+every+byte;SYSTEM_READY..." alt="Typing SVG" />
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FFFF&center=true&vCenter=true&random=false&width=600&lines=AI+%26+Mobile+Architect;Enterprise+Java+Developer;Optimizing+every+byte;SYSTEM_READY..." alt="Typing SVG" />
     </a>
   </p>
 </div>
@@ -22,8 +19,8 @@
 <div align="center">
   <h3>👤 System Identity (Hakkımda)</h3>
   <p>
-    <i>"Optimizasyon bir lüks değil, gerekliliktir."</i> <br/><br/>
-    Düşük seviyeli bellek yönetiminden <b>(C/C++)</b>, kurumsal mimari tasarımına <b>(Java)</b> kadar uzanan geniş bir yelpazede yüksek performanslı sistemler inşa eden bir yazılım mühendisiyim. Büyük veritabanı mimarileri <b>(Oracle SQL)</b> ve karmaşık algoritmalar üzerinde çalışmayı, sistem darboğazlarını (bottleneck) tespit edip yok etmeyi ve ölçeklenebilir altyapılar üretmeyi bir yaşam tarzı olarak benimsiyorum. Yazdığım kodlar terminalin soğukluğunda derlenir ve doğrudan donanımın kalbiyle konuşur.
+    <i>"Sıradan mimarilerle sınırları aşamazsın."</i> <br/><br/>
+    Büyük veri tabanı mimarilerinden <b>(Oracle SQL)</b>, mobil ekosistemdeki uç nokta yapay zeka entegrasyonlarına <b>(Local LLM, TypeScript)</b> ve kurumsal mimari tasarımına <b>(Java)</b> kadar uzanan geniş bir yelpazede yüksek performanslı sistemler inşa eden bir yazılım mühendisiyim. Özellikle mobil cihazlarda donanım seviyesinde çalışan yapay zeka (AI) çözümleri, karmaşık veritabanı analiz motorları ve kurumsal bankacılık sistemleri üzerinde çalışıyor, mimari darboğazları (bottleneck) tespit edip yok etmeyi bir yaşam tarzı olarak benimsiyorum. Yazdığım kodlar yapay zeka devrimiyle doğrudan iletişim kurar ve terminalin soğukluğunda şekillenir.
   </p>
 </div>
 
@@ -35,30 +32,30 @@
 
 ### 🚀 Deployed Architectures (Öne Çıkan Projelerim)
 
-> *Sistem kaynaklarını son damlasına kadar kullanan, mimarisi ustalıkla örülmüş yazılımlar.*
+> *Sistem kaynaklarını son damlasına kadar sömüren, mimarisi ustalıkla örülmüş otonom sistemler.*
 
 <details open>
-  <summary><b>🔥 High-Performance Data Processing Engine</b></summary>
+  <summary><b>🧠 LocalLLMios & AIPA Mobile Architecture</b></summary>
   <br/>
-  <code>C++</code> kullanılarak geliştirilmiş, bellek sızıntısı olmayan (memory-safe) ve eşzamanlı (concurrent) işlemleri destekleyen özel bir veri işleme motoru. Milisaniyeler içinde devasa veri setlerini işlemek için tasarlandı. Pointer aritmetiği, memory pooling ve thread optimizasyon teknikleri en üst düzeyde kullanıldı.
+  <code>TypeScript</code> ve <code>Swift/iOS</code> kullanılarak geliştirilmiş, mobil cihazlar üzerinde lokal Yapay Zeka (LLM) modellerini çalıştırabilen devasa otonom mobil sistem altyapısı. Bulut sunuculara ihtiyaç duymadan, doğrudan Apple Neural Engine ve cihaz donanımını sömürerek milisaniyeler içinde akıl yürütebilen devrimsel yapay zeka asistanları ağı.
   <br/><br/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /> <img src="https://img.shields.io/badge/Multithreading-2496ED?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/iOS_Mobile-000000?style=for-the-badge&logo=apple&logoColor=white" /> <img src="https://img.shields.io/badge/Local_AI_Engine-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
 </details>
 
 <details open>
-  <summary><b>🏦 Enterprise Banking API & System Simulation</b></summary>
+  <summary><b>🏦 Enterprise Banking Core & API Simulation (gorkemBank)</b></summary>
   <br/>
-  <code>Java</code> ve <code>Oracle SQL</code> mimarisi üzerine inşa edilmiş, yüksek erişilebilirlik (high availability) prensiplerine sadık kalınarak tasarlanmış bankacılık simülasyonu. Kurumsal seviyede (Enterprise) Transaction yönetimi, ACID kuralları, veri güvenliği ve kompleks (PL/SQL) prosedürler içerir.
+  <code>Java</code> ve <code>Oracle SQL</code> mimarisi üzerine inşa edilmiş, ultra-yüksek erişilebilirlik (high availability) prensiplerine sadık kalınarak tasarlanmış kurumsal bankacılık çekirdeği (Core Banking). Milyonlarca eşzamanlı finansal işlemi (transaction) saniyeler içinde hatasız yönetebilecek şekilde kurgulanmış; katı ACID kuralları, kriptografik veri güvenliği ve inanılmaz karmaşık (PL/SQL) finansal prosedürler içerir.
   <br/><br/>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" /> <img src="https://img.shields.io/badge/Oracle_SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white" /> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
 </details>
 
 <details open>
-  <summary><b>⚙️ Low-Level Networking & Security Tool</b></summary>
+  <summary><b>🤖 SQL AI Intelligence System (sqlAI)</b></summary>
   <br/>
-  Saf <code>C</code> dili ile yazılmış, ağ üzerinde paket manipülasyonu ve detaylı port taraması gerçekleştiren güvenlik/analiz aracı. Doğrudan soket (socket) programlama ve sistem çağrıları (system calls) kullanılarak doğrudan kernel seviyesinde hız hedeflenmiştir.
+  <code>Python</code> kullanılarak tasarlanmış, geleneksel veritabanı sorgularını yapay zeka ile entegre eden otonom veri analiz motoru. Karmaşık veritabanı yığınlarını saniyeler içinde okuyup analiz eden, insan müdahalesi olmadan akıllı optimizasyonlar ve derinlemesine içgörüler sunan Neural Network destekli veritabanı komuta merkezi.
   <br/><br/>
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" /> <img src="https://img.shields.io/badge/Socket_Programming-FCC624?style=for-the-badge&logoColor=black" /> <img src="https://img.shields.io/badge/Linux_Kernel-E34F26?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/AI_Data_Engine-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
 </details>
 
 <br/>
@@ -84,8 +81,8 @@
 
   ### 🛠️ Cybernetics & Arsenal
   <p align="center">
-    <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-    <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
     <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
     <img src="https://img.shields.io/badge/Oracle_SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
     <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
@@ -95,7 +92,6 @@
   <br/>
 
   ### 📊 Neural Network Activity
-  <!-- Koyu tema ve neon renklerle GitHub istatistikleri -->
   <div align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=gorkemyigitmemis&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&icon_color=FF00FF" alt="GitHub Stats" />
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=gorkemyigitmemis&theme=tokyonight&hide_border=true&background=0D1117&ring=FF00FF&fire=00FFFF&currStreakLabel=00FFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF" alt="GitHub Streak" />
@@ -113,6 +109,5 @@
   <br/>
   <br/>
 
-  <!-- Siberpunk Footer Animasyonu -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,100:FF00FF&height=100&section=footer" />
 </div>

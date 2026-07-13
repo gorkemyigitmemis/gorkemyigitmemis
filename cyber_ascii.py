@@ -1,6 +1,6 @@
 import sys
 import random
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
 def image_to_ascii_frames(image_path, output_path="profile_ascii.gif", width=80, frames_count=40):
     try:
@@ -8,6 +8,10 @@ def image_to_ascii_frames(image_path, output_path="profile_ascii.gif", width=80,
     except Exception as e:
         print(f"Hata: Görüntü açılamadı - {e}")
         return
+
+    # Arka planı azaltmak ve yüzü ön plana çıkarmak için kontrast artırımı
+    enhancer = ImageEnhance.Contrast(img)
+    img = enhancer.enhance(1.5)
 
     aspect_ratio = img.height / img.width
     new_height = int(aspect_ratio * width * 0.55)
@@ -21,7 +25,20 @@ def image_to_ascii_frames(image_path, output_path="profile_ascii.gif", width=80,
         row = []
         for x in range(width):
             pixel_val = pixels[x, y]
-            char_index = int((pixel_val / 255) * (len(chars) - 1))
+            
+            # Gökyüzü ve ağaçların olduğu açık-orta tonları tamamen boşluğa çevir (120 üstü)
+            if pixel_val > 130:
+                char_index = len(chars) - 1 # Boşluk ' '
+            elif pixel_val > 100:
+                char_index = len(chars) - 2 # Nokta '.'
+            elif pixel_val > 80:
+                char_index = len(chars) - 4 # İki nokta ':'
+            else:
+                # Koyu kısımları (saç, yüz hatları, ceket) en yoğun karakterlere ata
+                normalized_dark = pixel_val / 80.0
+                char_index = int(normalized_dark * (len(chars) - 5))
+                if char_index < 0: char_index = 0
+                
             row.append(chars[char_index])
         final_grid.append(row)
 
@@ -85,5 +102,5 @@ if __name__ == "__main__":
         print("Kullanım: python cyber_ascii.py <fotograf_adi.jpg/png>")
     else:
         in_img = sys.argv[1]
-        out_img = "profile_ascii.gif"
+        out_img = sys.argv[2] if len(sys.argv) > 2 else "profile_ascii.gif"
         image_to_ascii_frames(in_img, out_img)
